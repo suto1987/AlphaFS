@@ -3,9 +3,13 @@
   <PropertyGroup>
     <TargetFrameworks>net45;net46;net47;netstandard20</TargetFrameworks>
     <IsPackable>true</IsPackable>
-    <PackageId>AlphaFS</PackageId>
+    <PackageId>AlphaFS.New</PackageId>
     <Title>AlphaFS</Title>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <FileVersion>2.3.0.0</FileVersion>
+    <Version>2.3.0</Version>
+    <PackageReleaseNotes>https://github.com/suto1987/AlphaFS</PackageReleaseNotes>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net35|AnyCPU'">
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
