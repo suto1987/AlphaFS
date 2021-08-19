@@ -1,6 +1,10 @@
+#AlphaFs.New
+
+The original https://github.com/alphaleonis/AlphaFS/tree/develop repo is dead, last commit was 2 and a half years ago
+This repo contain the last commit and published to nuget.org with netstandart 2.0 support
+ 
 # AlphaFS
 
-[![Build status](https://ci.appveyor.com/api/projects/status/9kb175khv0k3rn7s?svg=true)](https://ci.appveyor.com/project/alphaleonis/alphafs/) [![Test status](https://img.shields.io/appveyor/tests/alphaleonis/alphafs.svg)](https://ci.appveyor.com/project/alphaleonis/alphafs/build/tests) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9b3af141aae74656b6135413564b7e5d)](https://app.codacy.com/app/Yomodo/AlphaFS?utm_source=github.com&utm_medium=referral&utm_content=alphaleonis/AlphaFS&utm_campaign=badger)
 
 AlphaFS is a .NET library providing more complete Win32 file system functionality to the .NET platform than the standard `System.IO` classes.
 
